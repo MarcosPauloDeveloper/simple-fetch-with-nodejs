@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91cbd089-53e2-4307-8302-baba666c5864" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/cep.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/master.html" beforeDir="false" afterPath="$PROJECT_DIR$/master.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663479194295</updated>
       <workItem from="1663479195561" duration="2006000" />
-      <workItem from="1664048162419" duration="4054000" />
+      <workItem from="1664048162419" duration="8996000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1664051874376</created>

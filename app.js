@@ -19,3 +19,30 @@ function quotation() {
         )
         .catch(err => console.log('Erro de solicitação', err));  // lidar com os erros por catch
 }
+
+function getCep() {
+    let cep = document.getElementById('input-cep').value;
+    let url = `https://cep.awesomeapi.com.br/json/${cep}`
+    if (cep.length === 8) {
+        fetch(url)
+            .then(response => response.json())  // converter para json
+            .then(data => {
+                    let address = document.getElementById('address');
+                    address.value = data.address;
+                    let state = document.getElementById('state');
+                    state.value = data.state;
+                    let district = document.getElementById('district');
+                    district.value = data.district;
+                    let city = document.getElementById('city');
+                    city.value = data.city;
+                    let ddd = document.getElementById('ddd');
+                    ddd.value = data.ddd;
+                }
+            )
+            .catch(err => console.log('Erro de solicitação', err));  // lidar com os erros por catch
+    }
+    else {
+        alert('CEP inválido.');
+    }
+
+}
