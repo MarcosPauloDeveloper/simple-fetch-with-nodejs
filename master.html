@@ -8,24 +8,25 @@
 <div>
     <div id="att_cliente">
         <p></p>
-        <select id="currency" onChange="quotation()" className="form-control">
+        <label for="currency">Selecione a moeda:<br>
+            <br>
+        </label><select id="currency" onChange="quotation()">
             <option value="0">USD</option>
             <option value="1">EUR</option>
             <option value="2">CNY</option>
             <option value="3">BTC</option>
-
         </select>
         <br>
         <hr>
         <div id="currency-info">
             <p>Nome:</p>
-            <input id="name" type="text" className='form-control'>
+            <input id="name" type="text">
             <p>Valor mais alto hoje:</p>
-            <input id="high" type="text" className='form-control'>
+            <input id="high" type="text">
             <p>Valor mais baixo hoje:</p>
-            <input id="low" type="text" className='form-control'>
+            <input id="low" type="text">
             <p>BID</p>
-            <input id="bid" type="text" className='form-control'>
+            <input id="bid" type="text">
         </div>
     </div></div>
 <script src="app.js"></script>
